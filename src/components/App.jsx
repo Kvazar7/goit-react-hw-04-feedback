@@ -19,7 +19,9 @@ const App = () => {
       case 'neutral': setNeutral(neutral + 1);
         break;  
       case 'bad': setBad(bad + 1);
-        break;  
+        break;
+      default:
+        break;
     }
     console.log("Feedback accepted");
   }
